@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Programar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Seja bem-vindo, o que deseja procurar?</h1>
+    <div id="divBusca">
+      <input type="text" id="txtBusca" placeholder="Buscar..."/>
+    </div>
+    <h1>
+      Cursos mais populares abaixo:
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="catalog">
+      <div class="catalog-item">
+        <h2>Análise e Desenvolvimento de Sistemas</h2>
+        <p>Análise e Desenvolvimento de Sistemas é a área da tecnologia responsável por projetar, desenvolver e implementar softwares para atender as necessidades das empresas, utilizando técnicas de programação e gestão de projetos para criar soluções inovadoras e eficientes.</p>
+      </div>
+      <div class="catalog-item">
+        <h2>Engenharia de Software</h2>
+        <p>O engenheiro de software cuida de toda a parte técnica e científica dos sistemas, desde o desenvolvimento até a gestão. Ele pode cuidar tanto das aplicações visíveis aos usuários (que é chamada de front-end) quanto dos bastidores –– nesse caso, o back-end.</p>
+      </div>
+      <div class="catalog-item">
+        <h2>Engenharia da Computação</h2>
+        <p>O engenheiro de TI é responsável pela configuração e manutenção de redes, software, e hardware dentro de empresas e organizações. Este profissional desenvolve software e processos para facilitar e otimizar o processamento de tecnologia da informação.</p>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="image-container">
+        <div class="product">
+          <img src="img1.png" alt="Imagem 1"><p>
+        </div>
+        <div class="product">
+          <img src="img2.png" alt="Imagem 2"><p>
+        </div>
+        <div class="product">
+          <img src="img3.png" alt="Imagem 3"><p>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <h2>Sobre</h2>
+      <p>A programar disponibiliza uma grande aprendizagem na área da Tecnologia.</p>
+      <p>Telefone: (11) 1234-5678</p>
+      <p>Email: Programar@gmail.com</p>
+    </div>
+
+    <div class="block">
+      <h2>Contato</h2>
+      <form>
+        <label for="assunto">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Nome">
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" placeholder="Assunto">
+
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email" placeholder="E-mail">
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>Todos os direitos reservados &copy; 2023</p>
+    
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>
